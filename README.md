@@ -32,48 +32,42 @@ python main.py --host localhost --port 5000 --username Alice
 
 ### General Commands
 1. Show Help:
-Display a list of all available commands
-```/help```
+   
+Display a list of all available commands:```/help```
 
 2. Exit Application:
-Quit the current chat node session
-```/quit```
+   
+Quit the current chat node session: ```/quit```
 
 ### Chat Room Management
 3. Create a Chat Room:
-Create a new chat room and get a unique Chat ID
-```/create_chat <Chat Name>```
+   
+Create a new chat room and get a unique Chat ID: ```/create_chat <Chat Name>```
 
 4. Join an Existing Chat Room:
-Join a chat room using the Chat ID provided
-``` /join_chat <Chat ID> ```
+   
+Join a chat room using the Chat ID provided:``` /join_chat <Chat ID> ```
 
 ### Messaging
 
 5. Send a Message:
-Send a message to a specific chat room
-```/send_chat <Chat Name> <Message>```
+   
+Send a message to a specific chat room:```/send_chat <Chat Name> <Message>```
 
 ### Peer Management
 6. List Connected Peers:
-View all connected peers
-```/peers```
+   
+View all connected peers:```/peers```
 
 **These commands enable seamless interaction with the P2P chat application, covering room management, messaging, and peer connectivity.**
  
 
-
-
-
-
-
-Technologies Used
-
-Python 3.6+
-UDP Sockets
-Fernet Encryption (from cryptography library)
-Logical Clocks for event ordering
-Multithreading for concurrent tasks
+## Technologies Used
+1. Python 3.6+
+2. UDP Sockets
+3. Fernet Encryption (from cryptography library)
+4. Logical Clocks for event ordering
+5. Multithreading for concurrent tasks
 
 ## Contributing
 Feel free to fork, clone, and contribute to this project. Suggestions for improvements or additional features are always welcome.
