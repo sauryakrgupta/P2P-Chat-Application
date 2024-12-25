@@ -1,13 +1,9 @@
-# P2P-Chat-Application
-This project is a decentralized peer-to-peer (P2P) chat application built with Python, featuring **Fernet encryption** for secure messaging, **logical clocks** for maintaining message order, and a lightweight signaling server for peer discovery, ensuring reliable and fault-tolerant communication without a central server.
-
-
 # P2P Chat Application
 A decentralized peer-to-peer (P2P) chat application built with Python that enables secure, real-time messaging without relying on centralized servers. The system is designed for scalability, resilience, and privacy, ensuring robust communication across distributed networks.
 
 ### Features
 
-**Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets.
++ **Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets.
 
 **Secure Messaging**: Ensures confidentiality with Fernet symmetric encryption for end-to-end secure chats.
  
@@ -19,7 +15,7 @@ A decentralized peer-to-peer (P2P) chat application built with Python that enabl
  
 **Multithreading**: Handles concurrent operations like message queuing, peer status monitoring, and data replication efficiently.
 
-### Prerequisites
+***Prerequisites***
 
 Python 3.6 or higher
 cryptography library
