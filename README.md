@@ -3,19 +3,19 @@ A decentralized peer-to-peer (P2P) chat application built with Python that enabl
 
 ### Features
 
-+ **Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets.
++**Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets.
 
-**Secure Messaging**: Ensures confidentiality with Fernet symmetric encryption for end-to-end secure chats.
++**Secure Messaging**: Ensures confidentiality with Fernet symmetric encryption for end-to-end secure chats.
  
-**Causal Message Ordering**: Maintains the correct sequence of events using logical clocks.
++**Causal Message Ordering**: Maintains the correct sequence of events using logical clocks.
  
-**Dynamic Peer Management**: Supports seamless peer discovery and failure detection using a lightweight signaling server.
++**Dynamic Peer Management**: Supports seamless peer discovery and failure detection using a lightweight signaling server.
  
-**Data Replication**: Preserves chat history across nodes for availability during node failures.
++**Data Replication**: Preserves chat history across nodes for availability during node failures.
  
-**Multithreading**: Handles concurrent operations like message queuing, peer status monitoring, and data replication efficiently.
++**Multithreading**: Handles concurrent operations like message queuing, peer status monitoring, and data replication efficiently.
 
-***Prerequisites***
++***Prerequisites***
 
 Python 3.6 or higher
 cryptography library
