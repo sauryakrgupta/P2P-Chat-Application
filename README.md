@@ -1,7 +1,8 @@
 # P2P Chat Application
 A decentralized peer-to-peer (P2P) chat application built with Python that enables secure, real-time messaging without relying on centralized servers. The system is designed for scalability, resilience, and privacy, ensuring robust communication across distributed networks.
 
-### Features
+
+## Features
 
 + **Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets.
 
@@ -22,14 +23,14 @@ cryptography library
 
 **Install dependencies**:```pip install cryptography```
 
-### Running the Application 
+## Running the Application 
 
 **Start the signaling server**:```python signaling_server.py```
 
 **Run a chat node**:
 python main.py --host localhost --port 5000 --username Alice
 
-### General Commands
+## General Commands
 1. Show Help:
    
 Display a list of all available commands: ```/help```
@@ -38,7 +39,7 @@ Display a list of all available commands: ```/help```
    
 Quit the current chat node session: ```/quit```
 
-### Chat Room Management
+## Chat Room Management
 3. Create a Chat Room:
    
 Create a new chat room and get a unique Chat ID: ```/create_chat <Chat Name>```
@@ -47,13 +48,13 @@ Create a new chat room and get a unique Chat ID: ```/create_chat <Chat Name>```
    
 Join a chat room using the Chat ID provided:```/join_chat <Chat ID> ```
 
-### Messaging
+## Messaging
 
 5. Send a Message:
    
 Send a message to a specific chat room:```/send_chat <Chat Name> <Message>```
 
-### Peer Management
+## Peer Management
 6. List Connected Peers:
    
 View all connected peers:```/peers```
