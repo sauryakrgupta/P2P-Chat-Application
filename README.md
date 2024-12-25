@@ -20,12 +20,11 @@ A decentralized peer-to-peer (P2P) chat application built with Python that enabl
 Python 3.6 or higher
 cryptography library
 
-**Install dependencies**: ```pip install cryptography```
+**Install dependencies**:```pip install cryptography```
 
 ### Running the Application 
 
-**Start the signaling server**: 
-```python signaling_server.py```
+**Start the signaling server**:```python signaling_server.py```
 
 **Run a chat node**:
 python main.py --host localhost --port 5000 --username Alice
@@ -33,7 +32,7 @@ python main.py --host localhost --port 5000 --username Alice
 ### General Commands
 1. Show Help:
    
-Display a list of all available commands:```/help```
+Display a list of all available commands: ```/help```
 
 2. Exit Application:
    
@@ -46,7 +45,7 @@ Create a new chat room and get a unique Chat ID: ```/create_chat <Chat Name>```
 
 4. Join an Existing Chat Room:
    
-Join a chat room using the Chat ID provided:``` /join_chat <Chat ID> ```
+Join a chat room using the Chat ID provided:```/join_chat <Chat ID> ```
 
 ### Messaging
 
