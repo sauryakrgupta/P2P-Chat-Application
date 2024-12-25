@@ -24,26 +24,14 @@ cryptography library
 
 ### Running the Application
 
-Start the signaling server:
+**Start the signaling server**: 
+```python signaling_server.py```
 
-bashCopypython signaling_server.py
+**Run a chat node**:
+python main.py --host localhost --port 5000 --username Alice
 
-Run a chat node:
 
-bashCopypython main.py --host localhost --port 5000 --username Alice
 
-Create a chat room:
-
-plaintextCopy/create_chat MyChatRoom
-
-Join the chat room from another node:
-
-bashCopypython main.py --host localhost --port 5001 --username Bob
-plaintextCopy/join_chat <Chat ID>
-
-Send a message:
-
-plaintextCopy/send_chat MyChatRoom Hello, everyone!
 Technologies Used
 
 Python 3.6+
