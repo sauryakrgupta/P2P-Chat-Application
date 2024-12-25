@@ -6,22 +6,21 @@ This project is a decentralized peer-to-peer (P2P) chat application built with P
 A decentralized peer-to-peer (P2P) chat application built with Python that enables secure, real-time messaging without relying on centralized servers. The system is designed for scalability, resilience, and privacy, ensuring robust communication across distributed networks.
 Features
 
-Decentralized Architecture: Eliminates single points of failure with peer-to-peer communication using UDP sockets
-Secure Messaging: Ensures confidentiality with Fernet symmetric encryption for end-to-end secure chats
-Causal Message Ordering: Maintains the correct sequence of events using logical clocks
-Dynamic Peer Management: Supports seamless peer discovery and failure detection using a lightweight signaling server
-Data Replication: Preserves chat history across nodes for availability during node failures
-Multithreading: Handles concurrent operations like message queuing, peer status monitoring, and data replication efficiently
+**Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets
+**Secure Messaging**: Ensures confidentiality with Fernet symmetric encryption for end-to-end secure chats
+**Causal Message Ordering**: Maintains the correct sequence of events using logical clocks
+**Dynamic Peer Management**: Supports seamless peer discovery and failure detection using a lightweight signaling server
+**Data Replication**: Preserves chat history across nodes for availability during node failures
+**Multithreading**: Handles concurrent operations like message queuing, peer status monitoring, and data replication efficiently
 
-Getting Started
-Prerequisites
+### Prerequisites
 
 Python 3.6 or higher
 cryptography library
 
-Install dependencies:
-bashCopypip install cryptography
-Running the Application
+**Install dependencies**: bashCopypip install cryptography
+
+### Running the Application
 
 Start the signaling server:
 
@@ -51,9 +50,5 @@ Fernet Encryption (from cryptography library)
 Logical Clocks for event ordering
 Multithreading for concurrent tasks
 
-Contributing
+## Contributing
 Feel free to fork, clone, and contribute to this project. Suggestions for improvements or additional features are always welcome.
-License
-This project is licensed under the MIT License.
-Acknowledgments
-Special thanks to Dr. Swati Agarwal for her guidance and support throughout the development of this project.
