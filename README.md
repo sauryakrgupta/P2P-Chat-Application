@@ -62,7 +62,7 @@ View all connected peers:```/peers```
 **These commands enable seamless interaction with the P2P chat application, covering room management, messaging, and peer connectivity.**
  
 
-:globe_with_meridians: ## Technologies Used
+## :globe_with_meridians: Technologies Used
 1. Python 3.6+
 2. UDP Sockets
 3. Fernet Encryption (from cryptography library)
