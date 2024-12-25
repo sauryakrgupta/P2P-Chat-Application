@@ -1,8 +1,8 @@
-#P2P Chat Application
+# P2P Chat Application
 A decentralized peer-to-peer (P2P) chat application built with Python that enables secure, real-time messaging without relying on centralized servers. The system is designed for scalability, resilience, and privacy, ensuring robust communication across distributed networks.
 
 
-## :atom:Features
+## Features
 
 + **Decentralized Architecture**: Eliminates single points of failure with peer-to-peer communication using UDP sockets.
 
