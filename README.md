@@ -20,15 +20,50 @@ A decentralized peer-to-peer (P2P) chat application built with Python that enabl
 Python 3.6 or higher
 cryptography library
 
-**Install dependencies**: bashCopypip install cryptography
+**Install dependencies**: ```pip install cryptography```
 
-### Running the Application
+### Running the Application 
 
 **Start the signaling server**: 
 ```python signaling_server.py```
 
 **Run a chat node**:
 python main.py --host localhost --port 5000 --username Alice
+
+### General Commands
+1. Show Help:
+Display a list of all available commands
+```/help```
+
+2. Exit Application:
+Quit the current chat node session
+```/quit```
+
+### Chat Room Management
+3. Create a Chat Room:
+Create a new chat room and get a unique Chat ID
+```/create_chat <Chat Name>```
+
+4. Join an Existing Chat Room:
+Join a chat room using the Chat ID provided
+``` /join_chat <Chat ID> ```
+
+### Messaging
+
+5. Send a Message:
+Send a message to a specific chat room
+```/send_chat <Chat Name> <Message>```
+
+### Peer Management
+6. List Connected Peers:
+View all connected peers
+```/peers```
+
+**These commands enable seamless interaction with the P2P chat application, covering room management, messaging, and peer connectivity.**
+ 
+
+
+
 
 
 
