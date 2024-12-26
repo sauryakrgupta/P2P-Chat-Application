@@ -59,7 +59,7 @@ python main.py --host localhost --port 5000 --username Alice
 ## :globe_with_meridians: Technologies Used
 1. Python 3.6+
 2. UDP Sockets
-3. Fernet Encryption (from cryptography library)
+3. Fernet Encryption
 4. Logical Clocks for event ordering
 5. Multithreading for concurrent tasks
 
