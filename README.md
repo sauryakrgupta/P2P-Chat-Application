@@ -32,31 +32,26 @@ python main.py --host localhost --port 5000 --username Alice
 
 ## General Commands
 1. Show Help: ```/help```
- - Display a list of all available commands: 
+ - Display a list of all available commands.
 
-2. Exit Application:
-   
-Quit the current chat node session: ```/quit```
+2. Exit Application: ```/quit```
+ - Quit the current chat node session.
 
 ## Chat Room Management
-3. Create a Chat Room:
-   
-Create a new chat room and get a unique Chat ID: ```/create_chat <Chat Name>```
+3. Create a Chat Room: ```/create_chat <Chat Name>```
+ - Create a new chat room and get a unique Chat ID.
 
-4. Join an Existing Chat Room:
-   
-Join a chat room using the Chat ID provided:```/join_chat <Chat ID> ```
+4. Join an Existing Chat Room: ```/join_chat <Chat ID> ```
+ - Join a chat room using the Chat ID provided.
 
 ## Messaging
 
-5. Send a Message:
-   
-Send a message to a specific chat room:```/send_chat <Chat Name> <Message>```
+5. Send a Message: ```/send_chat <Chat Name> <Message>```
+  - Send a message to a specific chat room.
 
 ## Peer Management
-6. List Connected Peers:
-   
-View all connected peers:```/peers```
+6. List Connected Peers: ```/peers```
+ - View all connected peers in your chat room.
 
 **These commands enable seamless interaction with the P2P chat application, covering room management, messaging, and peer connectivity.**
  
