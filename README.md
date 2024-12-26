@@ -31,9 +31,8 @@ cryptography library
 python main.py --host localhost --port 5000 --username Alice
 
 ## General Commands
-1. Show Help:
-   
-Display a list of all available commands: ```/help```
+1. Show Help: ```/help```
+ - Display a list of all available commands: 
 
 2. Exit Application:
    
